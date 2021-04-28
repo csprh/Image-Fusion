@@ -1,20 +1,14 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
+    <meta charset="UTF-8">
     <title>HABNet</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
 </head>
-
         <!-- you should probably put some google analytics / meta bits and pieces
 	    here : PRH 
     <meta property="og:title" content="Paul Hill's Website"> etc.
@@ -37,7 +31,7 @@
   
                         <div class="col-md-10">
                             <div class="title">
-                                <h1>Image Fusion</h1>
+                                <h1>Perceptual Image Fusion</h1>
                                 <div class="container-sm">
                                     <div class="row justify-content-md-center">
                                         <div class="col-sm-auto">
@@ -45,19 +39,21 @@
                                             <p>University of Bristol</p>
                                         </div>
                                         <div class="col-sm-auto">
+                                            <p><a href='https://scholar.google.com/citations?user=srDQE6sAAAAJl'>M.E. Al-Mualla</a></p>
+                                            <p>KUSTAR</p>
+                                        </div>
+                                        <div class="col-sm-auto">
                                             <p><a href='http://www.bristol.ac.uk/engineering/people/david-r-bull/index.html'>D.R. Bull</a></p>
                                             <p>University of Bristol</p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
 			<div class="col-md-2">
-			    <p><a href='https://www.bristol.ac.uk'><img src="uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="VIL_logo.svg" width="100%" height="20%" alt=""></a></p>
 			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="bvilogo.svg" width="100%" height="20%" alt=""></a></p>
-			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="VIL_logo.svg" width="100%" height="20%" alt=""></a></p>
-			    
+			    <p><a href='https://www.bristol.ac.uk'><img src="uob-logo.svg" width="100%" height="20%" alt=""></a></p>
                         </div>
                     </div>
                 </div>
@@ -67,6 +63,18 @@
                 <p>THE effective fusion of two or more visual sources can provide significant benefits for visualisation, scene understanding, target recognition and situational awareness in multi-sensor applications such as medicine, surveillance and
 remote sensing.  Our work has focused on the use of image fusion within the
 wavelet domain leading to perceptually and region based fusion methods </p>
+ <h2>Abstract of Main Paper</h2><p>
+		A perceptual image fusion method is proposed that
+employs explicit luminance and contrast masking models. These
+models are combined to give the perceptual importance of each
+coefficient produced by the dual-tree complex wavelet transform of each input image. This combined model of perceptual
+importance is used to select which coefficients are retained
+and furthermore to determine how to present the retained
+information in the most effective way. This paper is the first
+to give a principled approach to image fusion from a perceptual
+perspective. Furthermore, the proposed method is shown to give
+improved quantitative and qualitative results compared with
+previously developed methods.</p>
 		<dl>
 			<dt>Funders</dt>
 			<dd>EPSRC: the Vision for the Future Platform Grant: EP/M000885/1</dd>
@@ -76,12 +84,15 @@ wavelet domain leading to perceptually and region based fusion methods </p>
             </div>
             <hr />
             <div class="container-md">
-                <h2>Projects</h2>
-                <h3> Percpetual Fusion </h3>
-		<h3> Belief Propagation based Image Fusion </h3>
-		<h3> Complex Wavelet Based Image Fusion </h3>
-		<h3> Scalable Video Compression and Fusion </h3>
-            </div>
+
+
+		              <div class="publicationlist">
+            <h5>Image Fusion Papers</h5>
+            <ul>
+                 <li><a>Perceptual Image Fusion Using Wavelets</a> P. Hill, ME. Al-Mualla and D. Bull. IEEE Transactions on Image Processing, vol 26., pp. 1076-1088<pdf>[</pdf><a href="https://ieeexplore.ieee.org/document/7762914">PDF</a><pdf>]</pdf></li>
+                 <li><a>Image Fusion Using Belief Propagation</a> P. Hill and D. Bull, 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Calgary, AB, 2018, pp. 1817-1821,<pdf>[</pdf><a href="https://ieeexplore.ieee.org/document/8461463">PDF</a><pdf>]</pdf></li>
+            </ul>
+
             <hr />
             <div class="container-md">
                 <h2 id="poster">Poster</h2>
@@ -103,16 +114,32 @@ wavelet domain leading to perceptually and region based fusion methods </p>
                 </ul>
             </div>
             <div class="container-md">
-                <h2>Citation</h2>
+                <h2>Citation 1</h2>
                 <pre class="citation">
-@article{hill2020habnet,
-  title={HABNet: Machine Learning, Remote Sensing-Based Detection of Harmful Algal Blooms},
-  author={Hill, Paul R and Kumar, Anurag and Temimi, Marouane and Bull, David R},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  volume={13},
-  pages={3229--3239},
-  year={2020},
-  publisher={IEEE}}</pre>
+@article{hill2016perceptual,
+  title={Perceptual image fusion using wavelets},
+  author={Hill, Paul and Al-Mualla, Mohammed Ebrahim and Bull, David},
+  journal={IEEE transactions on image processing},
+  volume={26},
+  number={3},
+  pages={1076--1088},
+  year={2016},
+  publisher={IEEE}
+}</pre>
+            </div>
+
+	                <div class="container-md">
+                <h2>Citation 2</h2>
+                <pre class="citation">
+@inproceedings{hill2018image,
+  title={Image Fusion Using Belief Propagation},
+  author={Hill, Paul and Bull, David},
+  booktitle={2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1817--1821},
+  year={2018},
+  organization={IEEE}
+}
+}</pre>
             </div>
 
         </div>
