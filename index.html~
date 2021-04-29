@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HABNet</title>
+    <title>Perceptual Image Fusion</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -60,7 +60,7 @@
             </div>
             <div class="container-md">
                 <h2>About</h2>
-                <p>THE effective fusion of two or more visual sources can provide significant benefits for visualisation, scene understanding, target recognition and situational awareness in multi-sensor applications such as medicine, surveillance and
+                <p>The effective fusion of two or more visual sources can provide significant benefits for visualisation, scene understanding, target recognition and situational awareness in multi-sensor applications such as medicine, surveillance and
 remote sensing.  Our work has focused on the use of image fusion within the
 wavelet domain leading to perceptually and region based fusion methods </p>
  <h2>Abstract (Main Paper)</h2><p>
@@ -99,13 +99,6 @@ previously developed methods.</p>
                 <p><a href="poster.pdf"><img src="BPFusionPoster.png" alt="Poster" width=300 class="center" /></a></p>
             </div>
             <hr />
-            <div class="container-md">
-                <h2 id="downloads">Downloads</h2>
-                <ul>
-                    <li>Paper <a href="https://ieeexplore.ieee.org/abstract/document/9113293">[PDF]</a> <a href="https://arxiv.org/abs/1912.02305">[ArXiv]</a></li>
-                    <li>Supplementary <a href="BPFusionPoster.pdf">[Poster]</a></li>
-                </ul>
-            </div>
 
             <div class="container-md">
                 <h2>Citation 1</h2>
